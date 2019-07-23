@@ -1,11 +1,14 @@
 # strapi-provider-upload-aws-s3-resize
 
-Add image resizing and variants to strapi upload
-in your strapi admin, change extensions/file-upload settings to S3 upload resize
+Add image resizing to strapi S3 upload
+in your strapi admin, change Plugins -> Files upload settings to AWS S3 upload resize.
 
 ```
-cd strapi project /plugins/upload
 npm i strapi-provider-upload-aws-s3-resize
+
+OR
+
+yarn add strapi-provider-upload-aws-s3-resize
 ```
 
 node resizing library 
@@ -13,9 +16,7 @@ https://github.com/lovell/sharp
 
 
 make sure the attributes 'url' and 'thumb exists in your in 
-> plugins/uploads/models/File.settings.json
-
-No UI fields yet, but feel free to change the lib/index.js to add variants or change sizes
+> extensions/uploads/models/File.settings.json
 
 
 ## Resources
