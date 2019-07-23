@@ -34,7 +34,7 @@ make sure the attributes 'url' and 'thumb exists in your in
       "type": "string",
       "configurable": false,
       "required": true
-    },
+    },``
     "hash": {
       "type": "string",
       "configurable": false,
