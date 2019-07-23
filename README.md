@@ -18,6 +18,75 @@ https://github.com/lovell/sharp
 make sure the attributes 'url' and 'thumb exists in your in 
 > extensions/uploads/models/File.settings.json
 
+#####Example File.settings.json:
+```
+{
+  "connection": "default",
+  "info": {
+    "name": "file",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "configurable": false,
+      "required": true
+    },
+    "hash": {
+      "type": "string",
+      "configurable": false,
+      "required": true
+    },
+    "sha256": {
+      "type": "string",
+      "configurable": false
+    },
+    "ext": {
+      "type": "string",
+      "configurable": false
+    },
+    "mime": {
+      "type": "string",
+      "configurable": false,
+      "required": true
+    },
+    "size": {
+      "type": "string",
+      "configurable": false,
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "configurable": false,
+      "required": true
+    },
+    "thumb": {
+      "type": "string",
+      "configurable": false,
+      "required": false
+    },
+    "provider": {
+      "type": "string",
+      "configurable": false,
+      "required": true
+    },
+    "public_id": {
+      "type": "string",
+      "configurable": false
+    },
+    "related": {
+      "collection": "*",
+      "filter": "field",
+      "configurable": false
+    }
+  }
+}
+
+```
+
 
 ## Resources
 
