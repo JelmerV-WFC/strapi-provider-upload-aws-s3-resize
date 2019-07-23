@@ -18,7 +18,7 @@ https://github.com/lovell/sharp
 make sure the attributes 'url' and 'thumb exists in your in 
 > extensions/uploads/models/File.settings.json
 
-#####Example File.settings.json:
+#### Example File.settings.json:
 ```
 {
   "connection": "default",
