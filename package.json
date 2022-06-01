@@ -2,7 +2,7 @@
   "bundleDependencies": false,
   "dependencies": {
     "aws-sdk": "^2.497.0",
-    "sharp": "^0.22.1"
+    "sharp": "^0.30.5"
   },
   "deprecated": false,
   "description": "S3 provider for strapi upload with resize capabilities",
